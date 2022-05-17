@@ -62,4 +62,18 @@ STRIPE_API_KEY=stripe_api_key
     + Inside `api` folder, run the command line, `yarn run dev` and go to `http://localhost:4000/`.
 
 ## EndPoints
-[GET / products](https://backend-markets-center.herokuapp.com/api/public/products)
+[GET /products](https://backend-markets-center.herokuapp.com/api/public/products)
+<br/>
+[GET /products?name](https://backend-markets-center.herokuapp.com/api/public/products?name=Papas)
+<br/>
+[GET /products/:id](https://backend-markets-center.herokuapp.com/api/public/product/62701f42cdc206940ccc751a)
+<br/>
+[GET /categories](https://backend-markets-center.herokuapp.com/api/public/categories)
+<br/>
+[GET /filter?id](https://backend-markets-center.herokuapp.com/api/public/filter?id=62701f42cdc206940ccc751a)
+<br/>
+[GET /filter?category](https://backend-markets-center.herokuapp.com/api/public/filter?categories=Bebidas)
+<br/>
+[GET /filter?id&&categories](https://backend-markets-center.herokuapp.com/api/public/filter?id=626ffb9ab4e05ccbb92b7ed7&&categories=Bebidas)
+<br/>
+[GET /users/sellers](https://backend-markets-center.herokuapp.com/api/private/users/sellers)
