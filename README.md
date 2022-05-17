@@ -70,7 +70,7 @@ STRIPE_API_KEY=stripe_api_key
 <br/>
 [GET /categories](https://backend-markets-center.herokuapp.com/api/public/categories)
 <br/>
-[GET /filter?id](https://backend-markets-center.herokuapp.com/api/public/filter?id=62701f42cdc206940ccc751a)
+[GET /filter?id](https://backend-markets-center.herokuapp.com/api/public/filter?id=626ffb9ab4e05ccbb92b7ed7)
 <br/>
 [GET /filter?category](https://backend-markets-center.herokuapp.com/api/public/filter?categories=Bebidas)
 <br/>
